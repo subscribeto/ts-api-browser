@@ -1,12 +1,21 @@
 {
 	"name": "@subscribeto/ts-api-browser",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A collection of utility classes for accessing the sub.scribe.to API inside of the browser",
 	"publishConfig": {
 		"access": "public"
 	},
 	"main": "js/main",
 	"types": ".d.ts/main",
+	"files": [
+		".d.ts/**",
+		"js/**",
+		"ts/main.ts",
+		"ts/s2-api-browser-implementation.ts",
+		"license.md",
+		"package.json",
+		"readme.md"
+	],
 	"scripts": {
 		"build": "gulp && jest",
 		"test": "jest"
