@@ -1,6 +1,6 @@
 {
 	"name": "@subscribeto/ts-api-browser",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "A collection of utility classes for accessing the sub.scribe.to API inside of the browser",
 	"publishConfig": {
 		"access": "public"
@@ -36,7 +36,7 @@
 	},
 	"homepage": "https://github.com/subscribeto/ts-api-browser#readme",
 	"dependencies": {
-		"@subscribeto/ts-api": "0.1.2"
+		"@subscribeto/ts-api": "0.1.3"
 	},
 	"devDependencies": {
 		"typescript": "latest",
