@@ -1,18 +1,18 @@
-# repo-name
-Paragraph of project description here.
+# sub.scribe.to Typescript/Javascript API Accessor (Browser)
+A collection of utility classes for accessing the sub.scribe.to API inside of the browser.
 
-### [Find repo-name on NPM.](https://www.npmjs.com/package/repo-name)
+### [Find @subscribeto/ts-api-browser on NPM.](https://www.npmjs.com/package/@subscribeto/ts-api-browser)
 
 ## Installation
 Install from NPM with
 ```
-$ npm install --save repo-name
+$ npm install --save @subscribeto/ts-api-browser
 ```
 
 ## Basic Usage
 Basic usage instructions here.
 
 ## License
-repo-name is made available under the GNU General Public License v3.
+@subscribeto/ts-api-browser is made available under the GNU General Public License v3.
 
 Copyright (C) 2019 Trevor Sears

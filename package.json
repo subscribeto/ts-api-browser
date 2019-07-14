@@ -1,7 +1,10 @@
 {
-	"name": "repo-name",
+	"name": "@subscribeto/ts-api-browser",
 	"version": "0.1.0",
-	"description": "Project description here.",
+	"description": "A collection of utility classes for accessing the sub.scribe.to API inside of the browser",
+	"publishConfig": {
+		"access": "public"
+	},
 	"main": "js/main",
 	"types": ".d.ts/main",
 	"scripts": {
@@ -10,15 +13,22 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/T99/repo-name.git"
+		"url": "git+https://github.com/subscribeto/ts-api-browser.git"
 	},
-	"keywords": [],
+	"keywords": [
+		"subscribeto",
+		"api",
+		"browser"
+	],
 	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
-		"url": "https://github.com/T99/repo-name/issues"
+		"url": "https://github.com/subscribeto/ts-api-browser/issues"
 	},
-	"homepage": "https://github.com/T99/repo-name#readme",
+	"homepage": "https://github.com/subscribeto/ts-api-browser#readme",
+	"dependencies": {
+		"@subscribeto/ts-api": "0.1.1"
+	},
 	"devDependencies": {
 		"typescript": "latest",
 		"@types/jest": "latest",
